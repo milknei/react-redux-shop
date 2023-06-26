@@ -1,0 +1,20 @@
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.visible {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  visibility: visible;
+  transition: visibility 0.3s linear, opacity 0.3s linear !important;
+  opacity: 1;
+}
+
+.quantity {
+  font-size: 12px;
+  height: 20px;
+  width: 20px;
+  box-shadow: 1px 1px 5px rgb(147, 147, 147);
+}

@@ -1,0 +1,5 @@
+.max_width {
+  width: auto;
+  max-width: 500px !important;
+  --bs-toast-max-width: 800px !important;
+}
